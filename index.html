@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNTDOWN TIMER</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="grey-body">
+        <h2 class="heading">COUNTDOWN TIMER</h2>
+        <div class="time">
+            <p class="hour" id="hour">00</p>
+            <p>:</p>
+            <p class="minutes" id="minutes">00</p>
+            <p>:</p>
+            <p class="seconds" id="seconds">00</p>
+        </div>
+    </div>
+    
+    <div class="button-container">
+        <button class="button" id="button" onclick="start()">START</button>
+        <button class="stopbutton" id="stopbutton" onclick="stop()">STOP</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
